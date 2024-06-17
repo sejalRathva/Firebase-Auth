@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-auth-128d8": {
+      "hosting": {
+        "UI_Practice": [
+          "angular-auth-128d8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-auth-128d8"
+  }
+}

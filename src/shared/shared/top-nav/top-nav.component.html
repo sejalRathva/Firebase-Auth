@@ -1,0 +1,48 @@
+<mat-toolbar class="theme-background-color p-2">
+  <div class="container-fluid p-0">
+    <div class="row m-0">
+      <div class="col-md-12 pr-2 pl-2 pt-0 pb-0 white-color">
+        ChatApp
+       
+          <button (click)="logout()" class="float-end" mat-button>
+            logout  <mat-icon class="white-color">logout</mat-icon>
+          </button>
+          
+          <!-- <button [matMenuTriggerFor]="menu" class="profile-image float-end">
+            Sejal
+          </button>
+          <mat-menu #menu="matMenu">
+            <mat-list role="list">
+             <mat-list-item class="cursor" (click)="logout()" role="listitem"
+                ><mat-icon name="log-out-outline"></mat-icon> &nbsp;
+                Logout</mat-list-item
+              >
+            </mat-list>
+          </mat-menu> -->
+        
+          <!-- <ng-container *ngIf="auth.currentUser$ | async as user; else loginButton">
+            <button mat-button class="float-end" (click)="logout()">
+              <mat-icon>account_circle</mat-icon>
+              <mat-icon>expand_more</mat-icon>
+            </button>
+          </ng-container>
+          
+          <ng-template #loginButton>
+            <button mat-button class="float-end" 
+            routerLink="/Auth/login">
+              <mat-icon>login</mat-icon>
+            Login
+            </button>
+          </ng-template> -->
+       
+      </div>
+      
+
+    </div>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+<mat-menu #userMenu="matMenu">
+  <button mat-menu-item (click)="logout()">Logout                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </button>
+</mat-menu>

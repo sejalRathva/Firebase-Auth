@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "UI_Practice",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

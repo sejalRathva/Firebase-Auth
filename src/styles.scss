@@ -1,1 +1,149 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.prodImg{
+  width: 60% !important;
+  border-radius: 30px;
+}
+.cursor {
+  cursor: pointer !important;
+}
+
+.white-color {
+  color: white !important;
+}
+
+.white-background-color {
+  background-color: white !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.transparent-auth-card {
+  background-color: rgb(255 251 255 / 87%) !important;
+  border-radius: 12px !important;
+}
+
+.auth-background-image {
+  background-image: url(./assets/image/chatBubble.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.theme-color {
+  color: #cf2ca0 !important;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.theme-background-color {
+  background-color: #cf2ca0 !important;
+}
+
+.btn-raised {
+  background-color: #cf2ca0 !important;
+  color: white !important;
+  font-size: 0.8rem;
+}
+
+.btn-raised:disabled {
+  background-color: gray !important;
+  color: white !important;
+  font-size: 0.8rem;
+}
+
+.btn-bordered {
+  border-color: #cf2ca0 !important;
+  color: #cf2ca0 !important;
+  font-size: 0.8rem;
+}
+table {
+  width: 100% !important;
+}
+.font-color {
+  color: #cf2ca0;
+}
+.icon-color {
+  color: #cf2ca0;
+}
+.font-color-blue {
+  color: rgb(29, 115, 185);
+}
+.font-size-30 {
+  font-size: 30px !important;
+}
+.font-size-12 {
+  font-size: 12px !important;
+}
+.font-size-14 {
+  font-size: 14px !important;
+}
+.span {
+  color: #cf2ca0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-color {
+  background-color: rgb(236, 194, 130);
+}
+.card-header {
+  background-color: rgb(236, 194, 130);
+}
+.font-color-grey {
+  color: rgb(160, 158, 158);
+}
+.header {
+  font-size: 12px;
+  font-weight: 6px;
+  color: #cf2ca0;
+}
+
+.warning {
+  color: rgb(255, 208, 0);
+}
+
+.edit {
+  color: orange;
+}
+
+.delete {
+  color: red !important;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  font-size: 18px;
+  cursor: pointer;
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
+th.mat-header-cell {
+  text-align: center !important;
+}
+
+td {
+  text-align: center !important;
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+  color: #cf2ca0;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-transform: uppercase;
+}
